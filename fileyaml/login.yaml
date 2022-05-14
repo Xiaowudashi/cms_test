@@ -1,0 +1,20 @@
+login:
+        path: http://cms.duoceshi.cn/cms/manage/loginJump.do
+        data: {'userAccount': 'admin','loginPwd': 123456}
+        headers: {"Content-Type": "application/x-www-form-urlencoded"}
+        text: 登录成功！
+login2:
+        path: http://cms.duoceshi.cn/cms/manage/loginJump.do
+        data: {'userAccount': 'admin','loginPwd':''}
+        headers: {"Content-Type": "application/x-www-form-urlencoded"}
+        text: 登录密码不能为空！
+login3:
+        path: http://cms.duoceshi.cn/cms/manage/loginJump.do
+        data: {'userAccount': 'admin','loginPwd': 123455}
+        headers: {"Content-Type": "application/x-www-form-urlencoded"}
+        text: 登录密码不正确！
+login4:
+        path: http://cms.duoceshi.cn/cms/manage/loginJump.do
+        data: {'userAccount': 'admn','loginPwd': 123456}
+        headers: {"Content-Type": "application/x-www-form-urlencoded"}
+        text: 登录帐号不存在！d"}
